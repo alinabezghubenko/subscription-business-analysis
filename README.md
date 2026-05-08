@@ -24,3 +24,7 @@
         CASE WHEN previous_paid_month IS NOT NULL
               AND previous_paid_month < prev_calendar_month
             THEN 1 ELSE 0 END                      AS reactivated_users,
+
+🔗 Посилання
+Інтерактивний дашборд у Tableau
+[![Tableau](https://img.shields.io/badge/Tableau-Interactive_Dashboard-blue?style=for-the-badge&logo=tableau)](https://public.tableau.com/views/_17767713281710/SubscriptionBusinessPerformanceExecutiveDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
